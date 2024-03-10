@@ -1,15 +1,9 @@
-.bg {
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-    background-color: #fff;
-    /* background:linear-gradient(to right, #b661ed, #71a7fb); */
-    background-size: 100% 30%;
-    background-repeat: no-repeat;
-    /* filter: blur(10px); /* 调整模糊程度，可以根据需要修改值 */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #14141e;
+    color: #ffffff;
 }
 
 .container {
@@ -24,9 +18,10 @@
 }
 
 .sidebar {
-    width: 10%;
+    width: 5%;
     height: 100%;
     background-color: #000;
+    position: fixed;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -63,7 +58,8 @@
     background-color: #0f1e41;
     width:66%;
     height:100%;
-    padding: 10px 20px
+    padding: 10px 20px;
+    margin-left: 5%;
 }
 .rightBoard{
     width:33%;

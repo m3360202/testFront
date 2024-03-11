@@ -64,6 +64,7 @@ export default function PinnedControl() {
                                 border: "#fff 1px solid",
                                 padding: "5px 20px",
                                 background: during === "7D" ? "#1491ff" : "none",
+                                cursor:'pointer'
                             }}
                             onClick={requestReport("7D")}
                         >
@@ -74,6 +75,7 @@ export default function PinnedControl() {
                                 border: "#fff 1px solid",
                                 padding: "5px 20px",
                                 background: during === "14D" ? "#1491ff" : "none",
+                                cursor:'pointer'
                             }}
                             onClick={requestReport("14D")}
                         >
@@ -84,6 +86,7 @@ export default function PinnedControl() {
                                 border: "#fff 1px solid",
                                 padding: "5px 20px",
                                 background: during === "1M" ? "#1491ff" : "none",
+                                cursor:'pointer'
                             }}
                             onClick={requestReport("1M")}
                         >
@@ -94,6 +97,7 @@ export default function PinnedControl() {
                                 border: "#fff 1px solid",
                                 padding: "5px 20px",
                                 background: during === "3M" ? "#1491ff" : "none",
+                                cursor:'pointer'
                             }}
                             onClick={requestReport("3M")}
                         >
@@ -104,6 +108,7 @@ export default function PinnedControl() {
                                 border: "#fff 1px solid",
                                 padding: "5px 20px",
                                 background: during === "YTD" ? "#1491ff" : "none",
+                                cursor:'pointer'
                             }}
                             onClick={requestReport("YTD")}
                         >
@@ -111,7 +116,7 @@ export default function PinnedControl() {
                         </div>
                     </div>
                 </div>
-                <h2>. . .</h2>
+                <h2 style={{cursor:'pointer'}}>. . .</h2>
             </div>
             {/*rows*/}
             <div style={{width:'100%',display:'flex',flexWrap:'wrap',justifyContent:'space-between'}}>

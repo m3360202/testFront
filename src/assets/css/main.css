@@ -60,12 +60,11 @@ body{
 
 .leftBoard{
     background-color: #0f1e41;
-    width:60%;
+    width:100%;
     height:auto;
-
     min-height: 100%;
     padding: 10px 20px;
-    margin-left: 5%;
+    padding-left: 7%;
 }
 .rightBoard{
     width:33%;

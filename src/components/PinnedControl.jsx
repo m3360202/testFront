@@ -122,28 +122,29 @@ export default function PinnedControl() {
                                 padding: "10px 20px",
                                 display: "flex",
                                 borderRadius: "8px",
-                                marginTop:'16px'
+                                marginTop:'16px',
+                                width:'28%',overflow:'hidden'
                             }}
                         >
                             <div style={{ display: "flex", flexDirection: "column",textAlign:'left' }}>
                                 <div style={{ color: "#8aa3b7", fontSize: "14px" }}>
                                     Facebook
                                 </div>
-                                <div style={{ color: "#fff", fontSize: "32px",padding:'20px 0' }}>
-                                    <span style={{ fonts: "48px", fontWeight: "blod" }}>$</span>
+                                <div style={{ color: "#fff", fontSize: "24px",padding:'20px 0' }}>
+                                    <span style={{ fontSize: "30px", fontWeight: "blod" }}>$</span>
                                     112,893
                                 </div>
                                 <div style={{ color: "#fff", padding:'0',display:'flex',justifyContent:'flex-start',alignItems:'center' }}>
-                                    <span style={{ fonts: "12px",marginRight:'10px' }}>Revenue</span>
+                                    <span style={{ fontSize: "12px",marginRight:'10px' }}>Revenue</span>
                                     <RateIcon  />
-                                    <span style={{ fonts: "14px", color:'#4cbd1b',marginLeft:'8px' }}>70.5%</span>
+                                    <span style={{ fontSize: "14px", color:'#4cbd1b',marginLeft:'8px' }}>70.5%</span>
                                 </div>
                             </div>
                             <div>
                                 <img
                                     src={ratePng}
                                     alt="facebook"
-                                    style={{ width: "170px", height: "120px",marginLeft:'15px' }}
+                                    style={{ width: "100%", height: "120px",marginLeft:'15px' }}
                                 />
                             </div>
                         </div>
@@ -154,28 +155,29 @@ export default function PinnedControl() {
                                 padding: "10px 20px",
                                 display: "flex",
                                 borderRadius: "8px",
-                                marginTop:'16px'
+                                marginTop:'16px',
+                                width:'28%',overflow:'hidden'
                             }}
                         >
                             <div style={{ display: "flex", flexDirection: "column",textAlign:'left' }}>
                                 <div style={{ color: "#8aa3b7", fontSize: "14px" }}>
                                     Shopify
                                 </div>
-                                <div style={{ color: "#fff", fontSize: "32px",padding:'20px 0' }}>
-                                    <span style={{ fonts: "48px", fontWeight: "blod" }}>$</span>
+                                <div style={{ color: "#fff", fontSize: "24px",padding:'20px 0' }}>
+                                    <span style={{ fontSize: "30px", fontWeight: "blod" }}>$</span>
                                     112,893
                                 </div>
                                 <div style={{ color: "#fff", padding:'0',display:'flex',justifyContent:'flex-start',alignItems:'center' }}>
-                                    <span style={{ fonts: "12px",marginRight:'10px' }}>Revenue</span>
+                                    <span style={{ fontSize: "12px",marginRight:'10px' }}>Revenue</span>
                                     <RateIcon  />
-                                    <span style={{ fonts: "14px", color:'#4cbd1b',marginLeft:'8px' }}>70.5%</span>
+                                    <span style={{ fontSize: "14px", color:'#4cbd1b',marginLeft:'8px' }}>70.5%</span>
                                 </div>
                             </div>
                             <div>
                                 <img
                                     src={ratePng}
                                     alt="facebook"
-                                    style={{ width: "170px", height: "120px",marginLeft:'15px' }}
+                                    style={{ width: "100%", height: "120px",marginLeft:'15px' }}
                                 />
                             </div>
                         </div>
@@ -186,28 +188,30 @@ export default function PinnedControl() {
                                 padding: "10px 20px",
                                 display: "flex",
                                 borderRadius: "8px",
-                                marginTop:'16px'
+                                marginTop:'16px',
+                                width:'28%',overflow:'hidden',
+
                             }}
                         >
                             <div style={{ display: "flex", flexDirection: "column",textAlign:'left' }}>
                                 <div style={{ color: "#8aa3b7", fontSize: "14px" }}>
                                     Blended
                                 </div>
-                                <div style={{ color: "#fff", fontSize: "32px",padding:'20px 0' }}>
-                                    <span style={{ fonts: "48px", fontWeight: "blod" }}>$</span>
+                                <div style={{ color: "#fff", fontSize: "24px",padding:'20px 0' }}>
+                                    <span style={{ fontSize: "36px", fontWeight: "blod" }}>$</span>
                                     112,893
                                 </div>
                                 <div style={{ color: "#fff", padding:'0',display:'flex',justifyContent:'flex-start',alignItems:'center' }}>
-                                    <span style={{ fonts: "12px",marginRight:'10px' }}>Revenue</span>
-<RateIcon  />
-                                    <span style={{ fonts: "14px", color:'#4cbd1b',marginLeft:'8px' }}>70.5%</span>
+                                    <span style={{ fontSize: "12px",marginRight:'10px' }}>Revenue</span>
+                                        <RateIcon  />
+                                    <span style={{ fontSize: "14px", color:'#4cbd1b',marginLeft:'8px' }}>70.5%</span>
                                 </div>
                             </div>
                             <div>
                                 <img
                                     src={ratePng}
                                     alt="facebook"
-                                    style={{ width: "170px", height: "120px",marginLeft:'15px' }}
+                                    style={{ width: "100%", height: "120px",marginLeft:'15px' }}
                                 />
                             </div>
                         </div>
@@ -218,28 +222,29 @@ export default function PinnedControl() {
                                 padding: "10px 20px",
                                 display: "flex",
                                 borderRadius: "8px",
-                                marginTop:'16px'
+                                marginTop:'16px',
+                                width:'28%',overflow:'hidden'
                             }}
                         >
                             <div style={{ display: "flex", flexDirection: "column",textAlign:'left' }}>
                                 <div style={{ color: "#8aa3b7", fontSize: "14px" }}>
-                                    Google
+                                    Facebook
                                 </div>
-                                <div style={{ color: "#fff", fontSize: "32px",padding:'20px 0' }}>
-                                    <span style={{ fonts: "48px" }}>$</span>
+                                <div style={{ color: "#fff", fontSize: "24px",padding:'20px 0' }}>
+                                    <span style={{ fontSize: "30px", fontWeight: "blod" }}>$</span>
                                     112,893
                                 </div>
                                 <div style={{ color: "#fff", padding:'0',display:'flex',justifyContent:'flex-start',alignItems:'center' }}>
-                                    <span style={{ fonts: "12px",marginRight:'10px' }}>Revenue</span>
-<RateIcon  />
-                                    <span style={{ fonts: "14px", color:'#4cbd1b',marginLeft:'8px' }}>70.5%</span>
+                                    <span style={{ fontSize: "12px",marginRight:'10px' }}>Revenue</span>
+                                    <RateIcon  />
+                                    <span style={{ fontSize: "14px", color:'#4cbd1b',marginLeft:'8px' }}>70.5%</span>
                                 </div>
                             </div>
                             <div>
                                 <img
                                     src={ratePng}
                                     alt="facebook"
-                                    style={{ width: "170px", height: "120px",marginLeft:'15px' }}
+                                    style={{ width: "100%", height: "120px",marginLeft:'15px' }}
                                 />
                             </div>
                         </div>
@@ -250,28 +255,63 @@ export default function PinnedControl() {
                                 padding: "10px 20px",
                                 display: "flex",
                                 borderRadius: "8px",
-                                marginTop:'16px'
+                                marginTop:'16px',
+                                width:'28%',overflow:'hidden'
                             }}
                         >
                             <div style={{ display: "flex", flexDirection: "column",textAlign:'left' }}>
                                 <div style={{ color: "#8aa3b7", fontSize: "14px" }}>
-                                    Google
+                                    Shopify
                                 </div>
-                                <div style={{ color: "#fff", fontSize: "32px",padding:'20px 0' }}>
-                                    <span style={{ fonts: "48px" }}>$</span>
+                                <div style={{ color: "#fff", fontSize: "24px",padding:'20px 0' }}>
+                                    <span style={{ fontSize: "30px", fontWeight: "blod" }}>$</span>
                                     112,893
                                 </div>
                                 <div style={{ color: "#fff", padding:'0',display:'flex',justifyContent:'flex-start',alignItems:'center' }}>
-                                    <span style={{ fonts: "12px",marginRight:'10px' }}>Revenue</span>
-<RateIcon  />
-                                    <span style={{ fonts: "14px", color:'#4cbd1b',marginLeft:'8px' }}>70.5%</span>
+                                    <span style={{ fontSize: "12px",marginRight:'10px' }}>Revenue</span>
+                                    <RateIcon  />
+                                    <span style={{ fontSize: "14px", color:'#4cbd1b',marginLeft:'8px' }}>70.5%</span>
                                 </div>
                             </div>
                             <div>
                                 <img
                                     src={ratePng}
                                     alt="facebook"
-                                    style={{ width: "170px", height: "120px",marginLeft:'15px' }}
+                                    style={{ width: "100%", height: "120px",marginLeft:'15px' }}
+                                />
+                            </div>
+                        </div>
+                    
+                        <div
+                            style={{
+                                background: "#003764",
+                                padding: "10px 20px",
+                                display: "flex",
+                                borderRadius: "8px",
+                                marginTop:'16px',
+                                width:'28%',overflow:'hidden',
+
+                            }}
+                        >
+                            <div style={{ display: "flex", flexDirection: "column",textAlign:'left' }}>
+                                <div style={{ color: "#8aa3b7", fontSize: "14px" }}>
+                                    Blended
+                                </div>
+                                <div style={{ color: "#fff", fontSize: "24px",padding:'20px 0' }}>
+                                    <span style={{ fontSize: "36px", fontWeight: "blod" }}>$</span>
+                                    112,893
+                                </div>
+                                <div style={{ color: "#fff", padding:'0',display:'flex',justifyContent:'flex-start',alignItems:'center' }}>
+                                    <span style={{ fontSize: "12px",marginRight:'10px' }}>Revenue</span>
+                                        <RateIcon  />
+                                    <span style={{ fontSize: "14px", color:'#4cbd1b',marginLeft:'8px' }}>70.5%</span>
+                                </div>
+                            </div>
+                            <div>
+                                <img
+                                    src={ratePng}
+                                    alt="facebook"
+                                    style={{ width: "100%", height: "120px",marginLeft:'15px' }}
                                 />
                             </div>
                         </div>
@@ -282,28 +322,29 @@ export default function PinnedControl() {
                                 padding: "10px 20px",
                                 display: "flex",
                                 borderRadius: "8px",
-                                marginTop:'16px'
+                                marginTop:'16px',
+                                width:'28%',overflow:'hidden'
                             }}
                         >
                             <div style={{ display: "flex", flexDirection: "column",textAlign:'left' }}>
                                 <div style={{ color: "#8aa3b7", fontSize: "14px" }}>
-                                    Google
+                                    Facebook
                                 </div>
-                                <div style={{ color: "#fff", fontSize: "32px",padding:'20px 0' }}>
-                                    <span style={{ fonts: "48px" }}>$</span>
+                                <div style={{ color: "#fff", fontSize: "24px",padding:'20px 0' }}>
+                                    <span style={{ fontSize: "30px", fontWeight: "blod" }}>$</span>
                                     112,893
                                 </div>
                                 <div style={{ color: "#fff", padding:'0',display:'flex',justifyContent:'flex-start',alignItems:'center' }}>
-                                    <span style={{ fonts: "12px",marginRight:'10px' }}>Revenue</span>
-<RateIcon  />
-                                    <span style={{ fonts: "14px", color:'#4cbd1b',marginLeft:'8px' }}>70.5%</span>
+                                    <span style={{ fontSize: "12px",marginRight:'10px' }}>Revenue</span>
+                                    <RateIcon  />
+                                    <span style={{ fontSize: "14px", color:'#4cbd1b',marginLeft:'8px' }}>70.5%</span>
                                 </div>
                             </div>
                             <div>
                                 <img
                                     src={ratePng}
                                     alt="facebook"
-                                    style={{ width: "170px", height: "120px",marginLeft:'15px' }}
+                                    style={{ width: "100%", height: "120px",marginLeft:'15px' }}
                                 />
                             </div>
                         </div>
@@ -314,92 +355,63 @@ export default function PinnedControl() {
                                 padding: "10px 20px",
                                 display: "flex",
                                 borderRadius: "8px",
-                                marginTop:'16px'
+                                marginTop:'16px',
+                                width:'28%',overflow:'hidden'
                             }}
                         >
                             <div style={{ display: "flex", flexDirection: "column",textAlign:'left' }}>
                                 <div style={{ color: "#8aa3b7", fontSize: "14px" }}>
-                                    Google
+                                    Shopify
                                 </div>
-                                <div style={{ color: "#fff", fontSize: "32px",padding:'20px 0' }}>
-                                    <span style={{ fonts: "48px" }}>$</span>
+                                <div style={{ color: "#fff", fontSize: "24px",padding:'20px 0' }}>
+                                    <span style={{ fontSize: "30px", fontWeight: "blod" }}>$</span>
                                     112,893
                                 </div>
                                 <div style={{ color: "#fff", padding:'0',display:'flex',justifyContent:'flex-start',alignItems:'center' }}>
-                                    <span style={{ fonts: "12px",marginRight:'10px' }}>Revenue</span>
-<RateIcon  />
-                                    <span style={{ fonts: "14px", color:'#4cbd1b',marginLeft:'8px' }}>70.5%</span>
+                                    <span style={{ fontSize: "12px",marginRight:'10px' }}>Revenue</span>
+                                    <RateIcon  />
+                                    <span style={{ fontSize: "14px", color:'#4cbd1b',marginLeft:'8px' }}>70.5%</span>
                                 </div>
                             </div>
                             <div>
                                 <img
                                     src={ratePng}
                                     alt="facebook"
-                                    style={{ width: "170px", height: "120px",marginLeft:'15px' }}
+                                    style={{ width: "100%", height: "120px",marginLeft:'15px' }}
                                 />
                             </div>
                         </div>
-
+                    
                         <div
                             style={{
                                 background: "#003764",
                                 padding: "10px 20px",
                                 display: "flex",
                                 borderRadius: "8px",
-                                marginTop:'16px'
-                            }}
-                        >
-                            <div style={{ display: "flex", flexDirection: "column",textAlign:'left' }}>
-                                <div style={{ color: "#8aa3b7", fontSize: "14px" }}>
-                                    Google
-                                </div>
-                                <div style={{ color: "#fff", fontSize: "32px",padding:'20px 0' }}>
-                                    <span style={{ fonts: "48px" }}>$</span>
-                                    112,893
-                                </div>
-                                <div style={{ color: "#fff", padding:'0',display:'flex',justifyContent:'flex-start',alignItems:'center' }}>
-                                    <span style={{ fonts: "12px",marginRight:'10px' }}>Revenue</span>
-<RateIcon  />
-                                    <span style={{ fonts: "14px", color:'#4cbd1b',marginLeft:'8px' }}>70.5%</span>
-                                </div>
-                            </div>
-                            <div>
-                                <img
-                                    src={ratePng}
-                                    alt="facebook"
-                                    style={{ width: "170px", height: "120px",marginLeft:'15px' }}
-                                />
-                            </div>
-                        </div>
+                                marginTop:'16px',
+                                width:'28%',overflow:'hidden',
 
-                        <div
-                            style={{
-                                background: "#003764",
-                                padding: "10px 20px",
-                                display: "flex",
-                                borderRadius: "8px",
-                                marginTop:'16px'
                             }}
                         >
                             <div style={{ display: "flex", flexDirection: "column",textAlign:'left' }}>
                                 <div style={{ color: "#8aa3b7", fontSize: "14px" }}>
-                                    Google
+                                    Blended
                                 </div>
-                                <div style={{ color: "#fff", fontSize: "32px",padding:'20px 0' }}>
-                                    <span style={{ fonts: "48px" }}>$</span>
+                                <div style={{ color: "#fff", fontSize: "24px",padding:'20px 0' }}>
+                                    <span style={{ fontSize: "36px", fontWeight: "blod" }}>$</span>
                                     112,893
                                 </div>
                                 <div style={{ color: "#fff", padding:'0',display:'flex',justifyContent:'flex-start',alignItems:'center' }}>
-                                    <span style={{ fonts: "12px",marginRight:'10px' }}>Revenue</span>
-<RateIcon  />
-                                    <span style={{ fonts: "14px", color:'#4cbd1b',marginLeft:'8px' }}>70.5%</span>
+                                    <span style={{ fontSize: "12px",marginRight:'10px' }}>Revenue</span>
+                                        <RateIcon  />
+                                    <span style={{ fontSize: "14px", color:'#4cbd1b',marginLeft:'8px' }}>70.5%</span>
                                 </div>
                             </div>
                             <div>
                                 <img
                                     src={ratePng}
                                     alt="facebook"
-                                    style={{ width: "170px", height: "120px",marginLeft:'15px' }}
+                                    style={{ width: "100%", height: "120px",marginLeft:'15px' }}
                                 />
                             </div>
                         </div>

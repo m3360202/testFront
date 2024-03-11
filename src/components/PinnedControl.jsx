@@ -8,7 +8,7 @@ export default function PinnedControl() {
 
     const requestReport = (during) => () => {
         console.log("requestReport", during);
-        useMetircs.setState({ during });
+        useMetircs.setState({ during, loading: true});
     };
     
     const RateIcon = () => {

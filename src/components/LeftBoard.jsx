@@ -7,6 +7,7 @@ export default function LeftBoard() {
         <div className='leftBoard'>
             <PinnedControl />
             <TableSummary />
+            <div style={{height:'60px'}}></div>
         </div>
     )
 }
